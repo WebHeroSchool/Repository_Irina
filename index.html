@@ -1,29 +1,33 @@
 <!DOCTYPE html>
-<html>
-<body>
+<html lang="en" {IF CLASSES}class="classes"{/IF}>
   <head>
+    <meta charset="utf-8"/>
+    <title>app.creation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Font+Montserrat-Light+Script&display=swap">
+</head>
+<body>
   <header>
     <div>app.creation</div>
-    <nav>
-      <a>start</a>
-      <a>services</a>
-      <a>about</a>
-      <a>blog</a>
+    <nav class="menu">
+      <a href="#">start</a>
+      <a href="#">services</a>
+      <a href="#">about</a>
+      <a href="#">blog</a>
       <a href="mailto:info@tennisstar.lt">contact us<a/>
       <a href="https://www.google.ru/" title="Ссылка на Google">Я — ссылка!</a>
     </nav>
   </header>
-
   <section>
     <main>
-      <h1>Building an App Without Design Expertise?</h1>
-      <p>I help tech startups design better digital products without hiring a full-time designer</p>
+      <h1 class="title">Building an App Without Design Expertise?</h1>
+      <p class="text">I help tech startups design better digital products without hiring a full-time designer</p>
       <button>Schedule free construction</button>
     </main>
     <div>
-      <img src="https://developer.mozilla.org/static/img/web-docs-sprite.22a6a085cf14.svg"
-     alt="Логотип MDN - изображение динозавра с текстом MDN web docs">
-
+      <picture>
+      <img src="ball.jpg" width="150">
+    </picture>
     </div>
   </section>
 </body>
