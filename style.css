@@ -1,6 +1,61 @@
 body {
-  font-family: Helvetica;
+  margin:0;
+  border: dashed 1px red;
 }
-.title {
-  font-family: Roboto;
+* {
+  border: dashed 1px red;
+}
+.menu {
+display: flex;
+align-items: center;
+}
+* {
+  border: dashed 1px red;
+}
+.menu__item {
+  padding: 0 13px;
+  border: dashed 1px red;
+}
+* {
+  border: dashed 1px red;
+}
+.menu__item: last-child {
+  padding-right: 0;
+}
+* {
+  border: dashed 1px red;
+}
+.wrapper {
+  margin: auto;
+  width: 80%;
+  border: dashed 1px red;
+}
+* {
+  border: dashed 1px red;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+* {
+  border: dashed 1px red;
+}
+.main-section {
+  border: dashed 1px red;
+}
+* {
+  border: dashed 1px red;
+}
+.logo, .menu {
+  display: inline-block;
+  border: dashed 1px red;
+}
+* {
+  border: dashed 1px red;
+}
+.logo {
+  margin-right: 63%;
+}
+* {
+  border: dashed 1px red;
 }
