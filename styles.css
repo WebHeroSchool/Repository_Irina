@@ -2,8 +2,8 @@ body {
   margin: 0;
 }
 .menu {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 .meniu__item {
   position: relative;
@@ -11,44 +11,45 @@ align-items: center;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
-  cursor: pointer;
   transition: opacity .5s;
 }
-.meniu__item::after {
+.meniu__item:after {
   position: absolute;
   left: 0;
   display: block;
   content: ";
+  width: 0;
+  height:3px;
+  background: #0056EC;
+  opacity: 0;
+  transition: opacity .5s, width .5s;
+}
+.meniu__item:hover {
+  opacity: 0.5;
+}
+.meniu__item:hover:after, .meniu__item_active:after {
+  opacity: 1;
+  width: 100%;
+}
+.menu__item:hover:after {
+  position: absolute;
+  left: 0;
+  display: block;
+  content: ";
+  width: 100%;
+  height: 3px;
+  background: #0056EC;
+}
+.menu__item_active:after {
+  position: absolute;
+  display: block;
+  content: ";
+  left: 0;
   width: 100%;
   height: 3px;
   background: #0056EC;
   opacity: 0;
   transition: opacity .5s;
-}
-.meniu__item:hover {
-  opacity: 0.5;
-}
-.meniu__item:hover::after, .meniu__item_active::after {
-  opacity: 1;
-  width: 100%;
-}
-.meniu__item:hover::after {
-  position: absolute;
-  left: 0;
-  display: block;
-  content: ";
-  width: 100%;
-  height: 3px;
-  background: #0056EC;
-}
-.menu__item_active::after {
-  position: absolute;
-  display: block;
-  content: ";
-  left: 0;
-  width: 100%;
-  height: 3px;
-  background: #0056EC;
 }
 .meniu__item: last-child {
   margin-right: 0;
