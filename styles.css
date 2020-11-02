@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 125px;
-}
+  }
 
 .menu {
   display: flex;
