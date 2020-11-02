@@ -1,10 +1,9 @@
 body {
   margin: 0;
 }
-
 .wrapper {
   margin: auto;
-  max-width: 1530px;
+  width: 79%;
 }
 
 .header {
@@ -21,7 +20,7 @@ body {
 
 .menu__item {
   position: relative;
-  margin-right: 22px;
+  margin-right: 23px;
   font: 500 19px/21px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
@@ -113,7 +112,7 @@ body {
 }
 
 .main {
-  padding: 80px 63% 200px 0;
+  padding: 81px 63% 200px 0;
   background: url('img/mainimg.svg');
   background-repeat: no-repeat;
   background-position: top right;
