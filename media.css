@@ -11,8 +11,54 @@
     padding-left: 48px;
   }
 
-  .menu {
-    padding: 17px;
+  .menu__item_start {
+    position: absolute;
+    margin: 57px 349px 50px 0;
+    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity .5s;
+  }
+
+  .menu__item_services {
+    position: absolute;
+    margin: 57px 256px 50px 0;
+    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity .5s;
+  }
+
+  .menu__item_about {
+    position: absolute;
+    margin: 57px 186px 50px 0;
+    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity .5s;
+  }
+
+  .menu__item_blog {
+    position: absolute;
+    margin: 57px 122px 50px 0;
+    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity .5s;
+  }
+
+  .menu__item_contact-us {
+    position: absolute;
+    margin: 57px 11px 50px 0;
+    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity .5s;
   }
 
   .main {
@@ -36,17 +82,58 @@
     margin-bottom: 16px;
   }
 
-  .menu {
-    padding: 0;
-    margin-top: 8px;
-    align-items: center;
-    justify-content: flex-end;
+  .logo {
+    padding-left: 45px;
   }
 
-  .menu__item {
-    position: relative;
-    margin-right: 29px;
+  .menu__item_start {
+    position: absolute;
+    margin: 57px 290px 50px 0;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity .5s;
+  }
+
+  .menu__item_services {
+    position: absolute;
+    margin: 57px 213px 50px 0;
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity .5s;
+  }
+
+  .menu__item_about {
+    position: absolute;
+    margin: 57px 152px 50px 0;
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity .5s;
+  }
+
+  .menu__item_blog {
+    position: absolute;
+    margin: 57px 97px 50px 0;
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity .5s;
+  }
+
+  .menu__item_contact-us {
+    position: absolute;
+    margin: 57px 5px 50px 0;
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity .5s;
   }
 
   .main {
@@ -85,15 +172,58 @@
     margin-bottom: 18px;
   }
 
-  .menu {
-    padding: 0 2% 0 0;
-    align-items: center;
-    justify-content: flex-start;
+  .logo {
+    padding-left: 49px;
   }
 
-  .menu__item {
-    margin-right: 25px;
+  .menu__item_start {
+    position: absolute;
+    margin: 57px 293px 50px 0;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity .5s;
+  }
+
+  .menu__item_services {
+    position: absolute;
+    margin: 57px 215px 50px 0;
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity .5s;
+  }
+
+  .menu__item_about {
+    position: absolute;
+    margin: 57px 154px 50px 0;
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity .5s;
+  }
+
+  .menu__item_blog {
+    position: absolute;
+    margin: 57px 99px 50px 0;
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity .5s;
+  }
+
+  .menu__item_contact-us {
+    position: absolute;
+    margin: 57px 6px 50px 0;
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: opacity .5s;
   }
 
   .main {
@@ -126,6 +256,9 @@
 @media (min-width: 768px) {
   .burger-menu {
     display: none;
+  }
+  .main, .main__title, .main__subtitle, .main__button {
+    text-align: center;
   }
 }
 
