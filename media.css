@@ -257,7 +257,10 @@
   .burger-menu {
     display: none;
   }
-  .main, .main__title, .main__subtitle, .main__button {
+
+  .main, .main__title,
+  .main__subtitle,
+  .main__button {
     text-align: center;
   }
 }
