@@ -258,7 +258,8 @@
     display: none;
   }
 
-  .main, .main__title,
+  .main,
+  .main__title,
   .main__subtitle,
   .main__button {
     text-align: center;
