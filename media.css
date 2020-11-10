@@ -246,7 +246,7 @@
   }
 }
 
-@media (max-height: 414px){
+@media (max-height: 414px) {
   .menu__box {
     padding: 6% 0 0 0;
   }
