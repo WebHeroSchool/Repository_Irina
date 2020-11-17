@@ -147,3 +147,29 @@ body {
 .main__title-text_highlight {
   background: #ecf3ff;
 }
+
+.wrap {
+  position: relative;
+  }
+
+  .square {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background: blue;
+    animation: Move 2s infinite ease-in-out;
+  }
+
+@keyframes Move {
+  from {
+  left: 0;
+}
+
+  50% {
+  left: 300px;
+}
+
+  100% {
+  left: 0;
+}
+}
